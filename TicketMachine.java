@@ -35,7 +35,7 @@ public class TicketMachine
      */
     public int getPrice()
     {
-        return price;
+         return price;
     }
 
     /**
@@ -74,5 +74,13 @@ public class TicketMachine
         total = total + balance;
         // Clear the balance.
         balance = 0;
+    }
+    
+    /**
+     * Devuelve el total recaudado
+     */
+    public int getTotal()
+    {
+        return total;
     }
 }
