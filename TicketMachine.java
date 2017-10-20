@@ -43,6 +43,14 @@ public class TicketMachine
     }
     
     /**
+     * Extrae todo el dinero que haya acumulado en la máquina. 
+     */
+    public void vaciar()
+    {
+        total = 0;
+    }
+   
+    /**
      * Return the price of a ticket.
      */
     public int getPrice()
